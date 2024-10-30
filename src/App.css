@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('https://img.freepik.com/premium-photo/candle-with-words-candle-top_406811-66431.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.rangoli {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.diya {
+  font-size: 4rem;
+  margin: 0 10px;
+  animation: flicker 1.5s infinite;
+}
+
+.wish {
+  font-size: 4rem;
+  animation: fadeIn 2s ease-in-out;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.lights {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.light {
+  font-size: 3rem;
+  margin: 0 10px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 600px) {
+  .wish {
+    font-size: 2.5rem;
+  }
+
+  .diya {
+    font-size: 3rem;
+  }
+
+  .light {
+    font-size: 2.5rem;
+  }
+}
