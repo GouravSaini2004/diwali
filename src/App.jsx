@@ -21,6 +21,14 @@ function App() {
     },
     {
       text: "",
+      img: "https://marketplace.canva.com/EAGTEL-zcOQ/1/0/900w/canva-gold-and-green-elegant-happy-diwali-mobile-video-grSoSXGIzv0.jpg", // Replace with your image URL
+    },
+     {
+      text: "",
+      img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig0dPs3T-fEXFwsdikQIO1Oyvwm5UnkteulqYtYhQUMmtwOxNPphyphenhyphen3pjg9yi03fiPu2UlkdyMJ3-iU4jb46zcI5DUeJUcOXirrhYRevaPSUcY8YhPjOTVnq7uU7iGcEaad72BU3kiXYhI/s2560/happy-diwali.jpg", // Replace with your image URL
+    },
+     {
+      text: "",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp222J37w12TiJ_WyEQRTdPa7Fywlcpf86zw&s", // Replace with your image URL
     },
     
